@@ -1,0 +1,2 @@
+/home/snowflakecat/Документы/C#/RTSP_Timelapse_App/bin/Release/net6.0/linux-x64/publish/RTSP_Timelapse_App.pdb
+/home/snowflakecat/Документы/C#/RTSP_Timelapse_App/bin/Release/net6.0/linux-x64/publish/RTSP_Timelapse_App
