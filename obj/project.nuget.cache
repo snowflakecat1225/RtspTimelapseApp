@@ -1,16 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "/FGlh2OPTu4=",
+  "dgSpecHash": "6E0xin0b8oOaF7mThKqc/FLT1Q5K2H4snzbqFMlbEeYwGrosS7MKVbjD4xjudcpQWwC66zH/LesJE/U+x9SlAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SnowflakeCat\\Documents\\RTSP_Timelapse_App\\RTSP_Timelapse_App.csproj",
+  "projectFilePath": "/home/snowflakecat/Documents/Programs/Timelapse_App/RTSP_Timelapse_App.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\SnowflakeCat\\.nuget\\packages\\atksharp\\3.24.24.95\\atksharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\SnowflakeCat\\.nuget\\packages\\cairosharp\\3.24.24.95\\cairosharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\SnowflakeCat\\.nuget\\packages\\gdksharp\\3.24.24.95\\gdksharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\SnowflakeCat\\.nuget\\packages\\giosharp\\3.24.24.95\\giosharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\SnowflakeCat\\.nuget\\packages\\glibsharp\\3.24.24.95\\glibsharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\SnowflakeCat\\.nuget\\packages\\gtksharp\\3.24.24.95\\gtksharp.3.24.24.95.nupkg.sha512",
-    "C:\\Users\\SnowflakeCat\\.nuget\\packages\\pangosharp\\3.24.24.95\\pangosharp.3.24.24.95.nupkg.sha512"
+    "/home/snowflakecat/.nuget/packages/atksharp/3.24.24.95/atksharp.3.24.24.95.nupkg.sha512",
+    "/home/snowflakecat/.nuget/packages/cairosharp/3.24.24.95/cairosharp.3.24.24.95.nupkg.sha512",
+    "/home/snowflakecat/.nuget/packages/gdksharp/3.24.24.95/gdksharp.3.24.24.95.nupkg.sha512",
+    "/home/snowflakecat/.nuget/packages/giosharp/3.24.24.95/giosharp.3.24.24.95.nupkg.sha512",
+    "/home/snowflakecat/.nuget/packages/glibsharp/3.24.24.95/glibsharp.3.24.24.95.nupkg.sha512",
+    "/home/snowflakecat/.nuget/packages/gtksharp/3.24.24.95/gtksharp.3.24.24.95.nupkg.sha512",
+    "/home/snowflakecat/.nuget/packages/pangosharp/3.24.24.95/pangosharp.3.24.24.95.nupkg.sha512",
+    "/home/snowflakecat/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }

@@ -25,15 +25,15 @@ namespace RTSP_Timelapse_App
             mainWindow = new("RTSP Timelaps");
             mainWindow.DeleteEvent += delegate { Application.Quit(); };
             
-            Box box = new(Orientation.Vertical, 20) { Margin = 10, WidthRequest = 640 };
+            Box box = new(Orientation.Vertical, 20) { Margin = 10, WidthRequest = 400 };
 
             Label emptyLabel1 = new() { Text = "", HeightRequest = 25 };
             box.Add(emptyLabel1);
             
             Box childBox1 = new(Orientation.Vertical, 10);
             Label rtspLabel = new() { Text = "Ссылка на поток", Halign = Align.Center};
-            rtspEntry = new() { Halign = Align.Fill, MarginStart = 100, MarginEnd = 100 };
-            ffplayButton = new() { Label = "Показать поток", Name = "ffplay", Halign = Align.End, MarginEnd = 100 };
+            rtspEntry = new() { Halign = Align.Fill, MarginStart = 75, MarginEnd = 75 };
+            ffplayButton = new() { Label = "Показать поток", Name = "ffplay", Halign = Align.End, MarginEnd = 75 };
             ffplayButton.Clicked += delegate { Bash.Execute($"ffplay -rtsp_transport tcp {rtspEntry.Text}"); };
             childBox1.Add(rtspLabel);
             childBox1.Add(rtspEntry);
@@ -42,8 +42,8 @@ namespace RTSP_Timelapse_App
 
             Box childBox2 = new(Orientation.Vertical, 10);
             Label pathLabel = new() { Text = "Путь сохранения", Halign = Align.Center};
-            pathToSaveEntry = new() { Halign = Align.Fill, MarginStart = 100, MarginEnd = 100, Text = Environment.GetFolderPath(Environment.SpecialFolder.MyVideos) };
-            pathToSaveButton = new() { Label = "Открыть", Name = "save", Halign = Align.End, MarginEnd = 100 };
+            pathToSaveEntry = new() { Halign = Align.Fill, MarginStart = 75, MarginEnd = 75, Text = Environment.GetFolderPath(Environment.SpecialFolder.MyVideos) };
+            pathToSaveButton = new() { Label = "Открыть", Name = "save", Halign = Align.End, MarginEnd = 75 };
             pathToSaveButton.Clicked += OpenFolderViewButton_Clicked;
             childBox2.Add(pathLabel);
             childBox2.Add(pathToSaveEntry);
